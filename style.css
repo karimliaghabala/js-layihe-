@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1{
+    display: block;
+    max-width: 336px;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin:auto;
+    margin-top: 100px;
+}
+.top{
+    background-color: #FFDC40;
+    height: 28px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.header{
+    text-align: center;
+    margin: 10px;
+}
+.main{
+    max-width: max-content;
+    margin: auto;
+}
+.main>img,input,button{
+    display: block;
+}
+.main>img{
+    position: relative;
+    left: 255px;
+    margin:5px;
+    cursor:pointer;
+}
+.textAdd{
+    position: relative;
+    margin: 5px;
+    display:block;
+    justify-content: center;
+}
+.textAdd>input{
+    font-size: 16px;
+    width: 286px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.textAdd>img{
+    position: absolute;
+    margin:10px;
+    left: 250px;
+}
+.textAdd>img:hover{
+    background-image: url(./image/Group\ 70.png);
+}
+
+.buttons{
+    margin: 5px;
+    max-width: max-content;
+    margin: auto;
+}
+.added{
+    position: relative;
+    font-size: 16px;
+    width: 286px;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    list-style: none;
+}
+.added>li{
+    position: relative;
+    margin: 5px;
+    height: 20px;
+}
+.added>li>img{
+    position: absolute;
+    left: 245px;
+}
+.added>li>img:hover{
+    background-image: url(./image/Group\ 70.png);
+}
+.buttons{
+    padding: 10px;
+}
+.button2{
+    color: aliceblue;
+    width: 150px;
+    height: 43px;
+    border-radius: 20px;
+    background-color: #833AE0;
+    border: 1px solid #833AE0;
+    
+}.button1{
+    color: aliceblue;
+    position:absolute;
+    width: 42px;
+    height: 42px;
+    border-radius: 40px;
+    background-color: #9953F1;
+    border: 1px solid #9953F1;
+    cursor: pointer;
+}
